@@ -2,7 +2,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 
-const generateMarkdownPage = require("utils/generateMarkdown.js");
+const generateMarkdownPage = require("./utils/generateMarkdown");
 
 
 
@@ -37,8 +37,8 @@ const questions = () => {
       },
       {
         type: "list",
-        name: "license",
         message: "Please select the license you used for this project.",
+        name: "license",
         choices: [
           "Mozilla",
           "MIT",
@@ -54,7 +54,7 @@ const questions = () => {
       },
       {
         type: "input",
-        name: "author",
+        name: "name",
         message: "What is your name?",
         validate: nameInput => {
           if (nameInput) {
@@ -91,6 +91,11 @@ const questions = () => {
           }
         }
       },
+      {
+        type: 'input',
+        name: 'contributors',
+        message: 'What does the user need to know about contributing to the repo, besides contact info?'
+    },
       {
         type: "input",
         name: "URL",
