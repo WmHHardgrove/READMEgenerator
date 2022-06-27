@@ -98,13 +98,52 @@ const questions = () => {
     },
       {
         type: "input",
-        name: "URL",
+        name: "url",
         message: "What is the URL of the live site?",
         validate: nameInput => {
           if (nameInput) {
               return true;
           } else {
               console.log('Please enter your URL!');
+              return false; 
+          }
+        }
+      },
+      {
+        type: "input",
+        name: "install",
+        message: "What is needed to install your product?",
+        validate: nameInput => {
+          if (nameInput) {
+              return true;
+          } else {
+              console.log('Please enter how to install');
+              return false; 
+          }
+        }
+      },
+      {
+        type: "input",
+        name: "usage",
+        message: "What is the proper way to use your application?",
+        validate: nameInput => {
+          if (nameInput) {
+              return true;
+          } else {
+              console.log('Please enter instalation instructions');
+              return false; 
+          }
+        }
+      },
+      {
+        type: "input",
+        name: "test",
+        message: "How do you run a test on your application?",
+        validate: nameInput => {
+          if (nameInput) {
+              return true;
+          } else {
+              console.log('Please explain testing!');
               return false; 
           }
         }

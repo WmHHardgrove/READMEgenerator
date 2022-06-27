@@ -1,3 +1,44 @@
-# Professional README Generator Starter Code
+# README Generator
 
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+  
+  ## Description 
+  This application is designed to allow a user to input answers to a selected field of questions and automate the generation of an README.md file
+  
+  
+  ## Table of Contents
+  * [License](#license)
+  * [Contributing](#contributing)
+  * [Instalation](#instalation)
+  * [Usage](#usage)
+  * [Tests](#tests)
+  * [Repo](#repo)
+  * [Live Site URL](#URL)
+  * [Questions](#questions)
+  
+ 
+  ## License 
+  This project is license under MIT
+
+  ## Contributors
+  Contributions are welcome.  To contribute contact Bill Hardgrove (contact info below)
+    
+
+  ## Instalation
+  Directions for instalation
+  N/A
+
+  ## Usage
+  N/A
+
+  ## Tests
+  To run a test...
+  N/A
+
+  ## Repo
+  The Github repo is https://github.com/WmHHardgrove/READMEgenerator
+
+  ##  URL
+  N/A
+
+  ## Questions
+  If you have any questions about this projects, please contact me directly at Wmhhardgroveiv@gmail.com. You can view more of my projects at https://github.com/WmHHardgrove.
