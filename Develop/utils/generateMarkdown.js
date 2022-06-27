@@ -11,12 +11,12 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   * [License](#license)
-  * [Contributing](#contributing)
+  * [Contributors](#contributors)
   * [Instalation](#instalation)
   * [Usage](#usage)
   * [Tests](#tests)
   * [Repo](#repo)
-  * [URL](#Live site URL)
+  * [URL](#url)
   * [Questions](#questions)
   
  
@@ -41,7 +41,7 @@ function generateMarkdown(data) {
   ## Repo
   The Github repo is https://github.com/${data.repo}
 
-  ## Live site URL
+  ## URL
   ${data.url}
 
   ## Questions
